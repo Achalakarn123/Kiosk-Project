@@ -5,7 +5,15 @@
   <title>Customize Salad</title>
   <link rel="stylesheet" href="style.css" />
   <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet" />
-</head>
+</head><!-- Chatbot Widget -->
+<div id="chatbot-container">
+  <div id="chatbot-messages"></div>
+  <input type="text" id="chatbot-input" placeholder="Ask me about salads...">
+</div>
+<button id="chatbot-toggle">🤖</button>
+
+<!-- Include the chatbot script -->
+<script src="chatbot.js"></script>
 <body>
   <button onclick="history.back()" class="back-button">&larr; Back</button>
 
